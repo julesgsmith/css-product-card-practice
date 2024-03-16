@@ -1,0 +1,88 @@
+/* apply across whole page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* outer section of the product card */
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* container */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+
+/* left hand side of product card */
+.desktop-image {
+    width: 50%;
+}
+
+/* right hand side of product card */
+article {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+/* main content of right hand side */
+main span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+main h1 {
+    font-family: "Fraunces", serif;
+    font-size: 33px;
+}
+
+main p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+
+main .prices {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .prices p:first-child {
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+}
+
+main .prices p:last-child {
+    color: grey;
+    text-decoration: line-through;
+
+}
+
+/* footer info */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
